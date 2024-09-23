@@ -1,6 +1,5 @@
 """Вывести словарь с именами и номерами телефонов"""
-dct ={}
-
+dct = {}
 
 while True:
     value = input()
@@ -11,7 +10,7 @@ while True:
         else:
             dct[key_value[0]] = []
             dct[key_value[0]].append(key_value[1])
-    else: 
+    else:
         break
 
 for item in dct:
