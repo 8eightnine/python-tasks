@@ -17,6 +17,7 @@ class Preschooler(Person):
                          outcome)
         # Инициализируем поля класса методом наследуемого класса
         self.group = group
+        print(f'Констурктор класса Preschooler вызван')
 
     # Метод для получения группы дошкольника
     def getGroup(self):

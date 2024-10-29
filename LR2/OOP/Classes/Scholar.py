@@ -17,6 +17,7 @@ class Scholar(Person):
                          outcome)
         # Инициализируем поля класса методом наследуемого класса
         self.grade = grade
+        print(f'Констурктор класса Scholar вызван')
 
     # Метод для получения класса школьника
     def getGrade(self):

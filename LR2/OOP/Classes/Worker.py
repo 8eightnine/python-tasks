@@ -18,6 +18,7 @@ class Worker(Person):
         # Инициализируем поля класса методом наследуемого класса
         self.company = company
         self.jobTitle = jobTitle
+        print(f'Констурктор класса Worker вызван')
 
     # Метод для получения направления обучения студента
     def getCompany(self):

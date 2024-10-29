@@ -32,7 +32,7 @@ print(p444.getPlaceOfStudies())
 print('------------')
 
 print('Тест 4: вывод информации о месте работы')
-p5 = Worker("2GIS", "Software Engineer")
+p5 = Worker(company='2GIS', jobTitle='Software Engineer')
 p5.printInfo()
 print(p5.GetJobInfo())
 print('------------')

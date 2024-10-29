@@ -16,6 +16,7 @@ class Student(Person):
                          outcome)
         # Инициализируем поля класса методом наследуемого класса
         self.areaOfStudies = areaOfStudies
+        print(f'Констурктор класса Student вызван')
 
     # Метод для получения направления обучения студента
     def getAreaOfStudies(self):

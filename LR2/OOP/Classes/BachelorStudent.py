@@ -18,6 +18,7 @@ class BachelorStudent(Student):
         # Инициализируем поля класса методом наследуемого класса
         self.areaOfStudies = areaOfStudies
         self.year_of_completion = year_of_completion
+        print(f'Констурктор класса BachelorStudent вызван')
 
     # Метод для получения направления обучения студента
     def getAreaOfStudies(self):

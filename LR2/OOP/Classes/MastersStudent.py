@@ -18,6 +18,7 @@ class MastersStudent(Student):
         # Инициализируем поля класса методом наследуемого класса
         self.areaOfStudies = areaOfStudies
         self.year_of_completion = year_of_completion
+        print(f'Констурктор класса MasterStudent вызван')
 
     def getPlaceOfStudies(self):
         return f'Студент {self.getFullname()} уже получил диплом бакалавра в {self.year_of_completion} и теперь учится в магистратуре НГТУ'

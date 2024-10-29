@@ -15,6 +15,7 @@ class Person():
         self.gender = gender
         self.income = income
         self.outcome = outcome
+        print(f'Конструктор класса Person вызван для {self.firstname} {self.surname}')
 
     # Метод для получения полного имени человека
     def getFullname(self):
