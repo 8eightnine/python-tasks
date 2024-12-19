@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Кликабельное изображение</title>
+</head>
+<body>
+    <!-- Изображение с картой -->
+    <img src="../../images/apartment.jpg" usemap="#objects" alt="Интерьер" width="60%" height="auto" align="middle">
+    
+    <!-- Карта кликабельных областей -->
+    <map name="objects">
+        <!-- Клик на диван -->
+        <area shape="rect" coords="750,350,1500,700" href="sofa.html" target="bottomFrame" alt="Диван">
+        
+        <!-- Клик на столик -->
+        <area shape="rect" coords="400,550,650,750" href="table.html" target="bottomFrame" alt="Столик">
+
+        <!-- Клик на телевизор -->
+        <area shape="rect" coords="640,200,780,300" href="tv.html" target="bottomFrame" alt="Телевизор">
+        
+        <!-- Клик на полку -->
+        <area shape="rect" coords="300,100,850,200" href="shelf.html" target="bottomFrame" alt="Полка">
+    </map>
+</body>
+</html>

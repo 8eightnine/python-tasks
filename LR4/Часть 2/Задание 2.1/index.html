@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта изображения</title>
+</head>
+<body>
+    <h1>Задание 2.1</h1>
+    <img src="../../images/image-map.png" alt="Геометрические фигуры" usemap="#shapes-map">
+
+    <map name="shapes-map">
+        <!-- Прямоугольник -->
+        <area shape="rect" coords="90,50,320,200" href="https://www.nstu.ru" alt="Сайт НГТУ" target="_blank">
+        <!-- Круг -->
+        <area shape="circle" coords="830,150,100" href="https://ya.ru" alt="Яндекс" target="_blank">
+        <!-- Звезда -->
+        <area shape="poly" coords="200,450,240,520,340,520,260,560,290,660,200,600,110,650,140,560,60,520,160,520" href="https://www.gosuslugi.ru" alt="Госуслуги" target="_blank">
+        <!-- Шестиугольник -->
+        <area shape="poly" coords="450,450,470,200,710,300,710,430,470,550,500,500" href="https://www.novo-sibirsk.ru" alt="Сайт Мэрии Новосибирска" target="_blank">
+    </map>
+</body>
+</html>

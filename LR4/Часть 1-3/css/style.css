@@ -1,0 +1,48 @@
+body {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #bf13c5;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid #666;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 10px auto;
+}
+.highlight {
+    background-color: #ffebcd;
+}
+.filter-invert {
+    filter: invert(100%);
+}
+.filter-rotate {
+    transform: rotate(180deg);
+}
+.text-glow {
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+.text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+marquee {
+    color: red;
+    font-size: 1.2em;
+}
