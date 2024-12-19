@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Статические фильтры для изображения</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        img {
+            margin: 20px;
+            border: 2px solid #ccc;
+            width: 300px;
+            height: auto;
+        }
+        .normal {
+            filter: none;
+        }
+        .inverted {
+            filter: invert(100%);
+        }
+        .rotated {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Пример использования статических фильтров</h1>
+    <p>Обычный:</p>
+    <img src="../../images/sample.png" alt="Обычное изображение" class="normal">
+    <p>Перевернутый:</p>
+    <img src="../../images/sample.png" alt="Перевернутое изображение" class="rotated">
+    <p>Инвертированный:</p>
+    <img src="../../images/sample.png" alt="Инвертированное изображение" class="inverted">
+</body>
+</html>
